@@ -31,5 +31,6 @@ stages:
         command: buildAndPush
         dockerfile: '$(Build.SourcesDirectory)/Dockerfile'
         containerRegistry: dockerRegistryServiceConnection
+        repository: samplepricing
         tags: |
           $(tag)
