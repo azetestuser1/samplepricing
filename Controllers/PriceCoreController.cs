@@ -19,13 +19,14 @@ namespace samplepricing.Controllers
         }
 
         [HttpGet]
-        public PricingCore Get(int id)
+        public PricingCore Get()
         {
             var rng = new Random();
 	    PricingCore pricingCore = new PricingCore();
 	    pricingCore.Date = DateTime.Today ;
 	    pricingCore.Price = new Decimal(rng.NextDouble()*50+10);
-	    pricingCore.Id = id ;
+	    pricingCore.Id = 1 ;
+	    Console.WriteLine(pricingCore);
 	    return pricingCore;
         }
     }
