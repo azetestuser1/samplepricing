@@ -26,6 +26,7 @@ namespace samplepricing.Controllers
 	    pricingCore.Date = DateTime.Today ;
 	    pricingCore.Price = new Decimal(rng.NextDouble()*50+10);
 	    pricingCore.Id = id;
+	    pricingCore.Currency = "USD";
 	    Console.WriteLine(pricingCore);
 	    return pricingCore;
         }
