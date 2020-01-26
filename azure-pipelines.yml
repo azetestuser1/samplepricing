@@ -30,6 +30,6 @@ stages:
       inputs:
         command: buildAndPush
         dockerfile: '$(Build.SourcesDirectory)/Dockerfile'
-        containerRegistry: $(dockerRegistryServiceConnection)
+        containerRegistry: dockerRegistryServiceConnection
         tags: |
           $(tag)
