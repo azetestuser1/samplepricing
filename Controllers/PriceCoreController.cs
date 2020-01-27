@@ -27,6 +27,7 @@ namespace samplepricing.Controllers
 	    pricingCore.Price = new Decimal(rng.NextDouble()*50+10);
 	    pricingCore.Id = id;
 	    pricingCore.Currency = "USD";
+	    pricingCore.PriceSource = "BBG";
 	    Console.WriteLine(pricingCore);
 	    return pricingCore;
         }
