@@ -13,5 +13,6 @@ namespace samplepricing
 	public string Currency {get; set; }
 	    
 	public string PriceSource {get; set; }
+	#Added a comment
     }
 }
