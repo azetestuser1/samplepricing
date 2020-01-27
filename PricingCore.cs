@@ -11,5 +11,7 @@ namespace samplepricing
 	public long Id {get; set; }
 
 	public string Currency {get; set; }
+	    
+	public string PriceSource {get; set; }
     }
 }
