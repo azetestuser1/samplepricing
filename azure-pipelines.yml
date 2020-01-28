@@ -3,7 +3,12 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/docker
 
 trigger:
-- master
+  tags:
+    include:
+      - relc-v*
+  branches:
+    include:
+      - master
 
 resources:
 - repo: self
