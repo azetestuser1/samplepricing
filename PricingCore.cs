@@ -13,6 +13,6 @@ namespace samplepricing
 	public string Currency {get; set; }
 	    
 	public string PriceSource {get; set; }
-	/*Added a comment more data*/
+	/*Added a comment more data on tagging*/
     }
 }
