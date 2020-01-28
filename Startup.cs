@@ -34,7 +34,7 @@ namespace samplepricing
             {
                 app.UseDeveloperExceptionPage();
             }
-
+//Test comment
             app.UseRouting();
 
             app.UseAuthorization();
