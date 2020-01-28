@@ -5,7 +5,7 @@
 trigger:
   tags:
     include:
-      - relc-v*
+      - releasecandidate
   branches:
     include:
       - master
